@@ -83,6 +83,18 @@ $("p").css("background-color","yellow");
         alert(text);
 
 </script>
+    
+=============================================================================================================
+7- Immplement the Style to all the elemnet inside the ancestors 
 
+.ancestors *
+{ 
+display: block;
+border: 2px solid lightgrey;
+color: lightgrey;
+padding: 5px;
+margin: 15px;
+}
 
+DEC : * with class implemnt the properties to all the values inside that div class 
 
