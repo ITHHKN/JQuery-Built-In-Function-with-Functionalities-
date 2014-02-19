@@ -107,3 +107,14 @@ $(document).ready(function(){
   $("div").children("p.1").css({"color":"red","border":"2px solid red"});
 });
 </script>
+
+
+=============================================================================================================
+
+9- Apply the Filter when the certain define condition is meet 
+
+<script>
+$(document).ready(function(){
+  $("p").eq(1).css("background-color","yellow");
+});
+</script>
