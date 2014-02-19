@@ -118,3 +118,18 @@ $(document).ready(function(){
   $("p").eq(1).css("background-color","yellow");
 });
 </script>
+<script>
+$(document).ready(function(){
+  $("p").not(".intro").css("background-color","yellow");
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("div p").first().css("background-color","yellow");
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("div p").last().css("background-color","yellow");
+});
+</script>
