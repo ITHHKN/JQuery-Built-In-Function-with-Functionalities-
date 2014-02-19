@@ -98,3 +98,12 @@ margin: 15px;
 
 DEC : * with class implemnt the properties to all the values inside that div class 
 
+=============================================================================================================
+
+8- jQuery children() also can use the Class to search the certain childer with id 
+
+<script>
+$(document).ready(function(){
+  $("div").children("p.1").css({"color":"red","border":"2px solid red"});
+});
+</script>
