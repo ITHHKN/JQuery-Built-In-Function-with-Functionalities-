@@ -42,3 +42,18 @@ $(document).ready(function(){
 </script>
 
 DES : First Excute the First Function after Compltion of First execute the next one 
+=============================================================================================================
+4- Chaining Functions 
+
+-  $("#p1").css("color","red"); Implment Any Style
+
+<script>
+$(document).ready(function()
+  {
+  $("button").click(function(){
+    $("#p1").css("color","red").slideUp(2000).slideDown(2000);
+  });
+});
+</script>
+
+DES : Allow you to call many function with in same line of code and Also the Way you can Implment the different Function to the Div element.
