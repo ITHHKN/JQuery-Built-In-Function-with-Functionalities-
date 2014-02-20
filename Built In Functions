@@ -164,3 +164,13 @@ $("#objectID").load("test.php", { 'choices[]': ["Jon", "Susan"] } );
 
 DES: Send Data Via using the array 
 
+=============================================================================================================
+12- jQuery.getJSON()  Function equal to the 
+
+$.ajax({
+dataType: "json",
+url: url,
+data: data,
+success: success
+});
+
