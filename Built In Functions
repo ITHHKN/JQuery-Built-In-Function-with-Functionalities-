@@ -157,4 +157,10 @@ $.post("some.php", { name: "John", time: "2pm" },
    });
    
   DES: Load Data From the Server 
-  
+=============================================================================================================
+11- Send Data via using load() method with array ()
+
+$("#objectID").load("test.php", { 'choices[]': ["Jon", "Susan"] } );
+
+DES: Send Data Via using the array 
+
