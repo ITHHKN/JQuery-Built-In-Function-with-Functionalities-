@@ -133,3 +133,28 @@ $(document).ready(function(){
   $("div p").last().css("background-color","yellow");
 });
 </script>
+
+=============================================================================================================
+10- Load String From the Server Through Two Method 
+
+- Via using the Ajax() Dafualt Method
+
+$.ajax({
+   type: "POST",
+   url: "some.php",
+   data: "name=John&location=Boston",
+   success: function(msg){
+     alert( "Data Saved: " + msg );
+   }
+ }); 
+ 
+ 
+- Via using the Load() Jquery by Dafault Method 
+
+$.post("some.php", { name: "John", time: "2pm" },
+   function(data){
+     alert("Data Loaded: " + data);
+   });
+   
+  DES: Load Data From the Server 
+  
