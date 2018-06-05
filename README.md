@@ -18,7 +18,7 @@ $("tr:even") 	Selects all even <tr> elements
 $("tr:odd")
 
 DES: Use Functions According to your Need   
-=============================================================================================================
+
 <br>
 2- Event On Different Moves 
 
@@ -30,7 +30,6 @@ mouseleave 	                   blur 	   	unload
 
 
 
-=============================================================================================================
 <br>
 3- Calling Back Function 
  
@@ -45,7 +44,7 @@ $(document).ready(function(){
 </script>
 
 DES : First Excute the First Function after Compltion of First execute the next one 
-=============================================================================================================
+
 <br>
 4- Chaining Functions 
 
@@ -62,7 +61,7 @@ $(document).ready(function()
 
 DES : Allow you to call many function with in same line of code and Also the Way you can Implment the different Function to the Div element.
 
-=============================================================================================================
+
 <br>
 5- Add and Remove the css properties and Classess
 
@@ -75,7 +74,7 @@ $("p").css("background-color","yellow");
     css() - Sets or returns the style attribute
     
     
-=============================================================================================================
+
 <br>
 6- Combine The Value of varibale to make A New String array
 
@@ -87,8 +86,7 @@ $("p").css("background-color","yellow");
         alert(text);
 
 </script>
-    
-=============================================================================================================
+
 <br>
 7- Immplement the Style to all the elemnet inside the ancestors 
 
@@ -103,7 +101,6 @@ margin: 15px;
 
 DEC : * with class implemnt the properties to all the values inside that div class 
 
-=============================================================================================================
 <br>
 8- jQuery children() also can use the Class to search the certain childer with id 
 
@@ -114,7 +111,7 @@ $(document).ready(function(){
 </script>
 
 
-=============================================================================================================
+
 <br>
 9- Apply the Filter when the certain define condition is meet 
 
@@ -139,7 +136,7 @@ $(document).ready(function(){
 });
 </script>
 
-=============================================================================================================
+
 <br>
 10- Load String From the Server Through Two Method 
 
@@ -163,7 +160,7 @@ $.post("some.php", { name: "John", time: "2pm" },
    });
    
   DES: Load Data From the Server 
-=============================================================================================================
+
 <br>
 11- Send Data via using load() method with array ()
 
@@ -171,7 +168,7 @@ $("#objectID").load("test.php", { 'choices[]': ["Jon", "Susan"] } );
 
 DES: Send Data Via using the array 
 
-=============================================================================================================
+
 12- jQuery.getJSON()  Function equal to the 
 
 $.ajax({
@@ -181,7 +178,6 @@ data: data,
 success: success
 });
 
-=============================================================================================================
 <br>
 13 - Get JSON Data From API and Show 
 
